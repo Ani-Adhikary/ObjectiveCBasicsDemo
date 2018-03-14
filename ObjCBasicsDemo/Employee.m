@@ -13,35 +13,36 @@
 
 //Getters and Setters
 
--(void)setEmpId:(int)empIdVal {
+//Method Definitions
+- (void)setEmpId:(int)empIdVal {
     _empId = empIdVal;
 }
 
--(int)empId {
+- (int)empId {
     return _empId;
 }
 
--(void)setSalary:(double)salary {
+- (void)setSalary:(double)salary {
     _salary = salary;
 }
 
--(double)salary {
+- (double)salary {
     return _salary;
 }
 
--(void)setEmpName:(NSString *)empNameVal {
+- (void)setEmpName:(NSString *)empNameVal {
     _empName = empNameVal;
 }
 
--(NSString *)empName {
+- (NSString *)empName {
     return _empName;
 }
 
--(void)calculate:(float)basicSal {
+- (void)calculate:(float)basicSal {
     NSLog(@"Basic Salary is %f", basicSal);
 }
 
--(void)calculate:(float)basicSal andVariableSalary:(float)variableSal {
+- (void)calculate:(float)basicSal andVariableSalary:(float)variableSal {
     NSLog(@"Total Salary is %f", basicSal + variableSal);
 }
 
