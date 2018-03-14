@@ -19,21 +19,21 @@
 
 //Method Declarations
 //Accessors - Getters and Setters
--(void) setEmpId: (int) empIdVal;
--(int) empId;
+- (void)setEmpId:(int)empIdVal;
+-( int)empId;
 
--(void) setSalary: (double) salary;
--(double) salary;
+- (void)setSalary:(double)salary;
+- (double)salary;
 
--(void) setEmpName: (NSString *) empNameVal;
--(NSString *) empName;
+- (void)setEmpName:(NSString *)empNameVal;
+- (NSString *)empName;
 
 //Methods in Obj C
 //Two types of methods in Obj C
 //Instance methods are identified with '-'
 //Static methods are identified with '+'
 
--(void) calculate: (float) basicSal;
--(void) calculate: (float) basicSal andVariableSalary: (float) variableSal;
+- (void)calculate:(float)basicSal;
+- (void) calculate:(float)basicSal andVariableSalary:(float)variableSal;
 
 @end
